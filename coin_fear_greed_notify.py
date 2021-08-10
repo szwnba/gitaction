@@ -22,7 +22,7 @@ if __name__ == '__main__':
     infos=[]
     for index in result["data"]:
        item = {}
-       item['title']= "BTC =价格： {},".format(price) + index["value_classification"] + ": " + index["value"] + "\n\n> ![img](https://alternative.me/crypto/fear-and-greed-index.png)\n\n"
+       item['title']= "BTC价格：{},".format(price) + index["value_classification"] + ": " + index["value"] + "\n\n> ![img](https://alternative.me/crypto/fear-and-greed-index.png)\n\n"
        item['link']="https://alternative.me/crypto/fear-and-greed-index/"
        item['subtype'] = "flow 市场情绪指数"
        infos.append(item)
