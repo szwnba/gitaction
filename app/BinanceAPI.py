@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*
 import requests, time, hmac, hashlib
 
-from authorization import api_key, api_secret, recv_window
+from app.authorization import recv_window
 
 try:
     from urllib import urlencode
