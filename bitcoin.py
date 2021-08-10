@@ -10,4 +10,4 @@ if __name__ == "__main__":
     price = instance.get_ticker_price("BTCUSDT")
     print(price)
 
-    msg.dingding_warn("flow:BTC Price is {}".format(price))
+    msg.dingding_warn("flow:BTC 价格： {}".format(price))
